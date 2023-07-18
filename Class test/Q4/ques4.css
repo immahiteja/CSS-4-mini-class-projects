@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2px;
+    padding: 0px;
+    background-color: rgb(211, 207, 207);
+}
+header {
+    background-color: #2b2a2a;
+    color: white;
+    padding: 20px;
+}
+header h1 {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    background-color:rgb(234, 234, 255);
+    font-size: large;
+}
+nav li {
+    margin: 10px;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav a:hover {
+    color: #ddd;
+}
+#hero {
+    display: flex;
+    align-items: center;
+}
+.hero-image img {
+    width: 100%;
+    max-width: 600px;
+    height: 550px;
+}
+.hero-content {
+    padding: 20px;
+    background-color: rgb(1, 41, 1);
+    width: 700px;
+    margin-left: 50px;
+    color: white;
+    border-radius: 20px;
+}
+.hero-content h2 {
+    margin-top: 0;
+}
+.hero-content button {
+    background-color: cornsilk;
+    padding: 4px;}
+#features {
+    background-color: hsl(101, 78%, 87%);
+    padding: 20px;
+}
+.feature {
+    display: flex;
+    align-items: center;
+    height: 650px;
+}
+.feature p{
+    font-size: 18px;
+    background-color: chartreuse;
+    padding: 10px;
+    border-radius: 5px;
+}
+.feature h4{
+    background-color: rgb(68, 128, 8);
+    padding: 10px;
+    border-radius: 5px;
+}
+.feature img {
+    width: 100%;
+    max-width: 950px;
+    margin-right: 20px;
+}
+#pricing {
+    padding: 20px;
+    background-color:rgb(61, 61, 61);
+    margin-top: 10px;
+}
+#pricing h3{
+    color: ghostwhite;
+}
+.plan {
+    background-color: antiquewhite;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.plan h4 {
+    margin-top: 0;
+    color: rgb(255, 0, 51);
+}
+.plan button{
+    background-color: rgb(217, 255, 0);
+    padding: 7px;
+    border-radius: 10px;
+}
+.photo{
+    height:auto;
+    padding: 10px;
+    background-color: rgb(210, 247, 247);
+    margin-top: 0%;
+}
+.photo img {
+    width: 100%;
+}
+#gallery h3{
+    margin-left: 1px;
+    margin-top: 40px;
+    margin-bottom: 0%;
+    background-color: aquamarine;
+    padding: 10px;
+}
+#contact {
+    background-color: #98bb95;
+    padding: 20px;
+    margin-top: 10px;
+}
+#contact form div {
+    margin-bottom: 10px;
+}
+#contact form label {
+    display:block
+}
+footer{
+    background-color: #646262;
+    text-align: center;
+    color: white;
+    padding: 1px;
+}
+
